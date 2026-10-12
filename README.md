@@ -1,5 +1,7 @@
 # mdlinks
 
+Install: `pip install mdlinks-cli` (command: `mdlinks`)
+
 Offline Markdown link checker: verifies relative file links and `#anchor` links (GitHub-style slugs). Ignores code spans/fences and external URLs. Zero dependencies.
 
 ```

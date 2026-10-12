@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mdlinks"
+name = "mdlinks-cli"
 version = "0.1.0"
 description = "offline Markdown link checker (relative files and #anchors). Stdlib only."
 readme = "README.md"

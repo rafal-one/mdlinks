@@ -74,7 +74,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description='Check relative links and anchors in Markdown files.')
     ap.add_argument('paths', nargs='*', default=['.'])
     a = ap.parse_args(argv)
-    probs = check(collect(a.paths))
+    try:
+        probs = check(collect(a.paths))
+    except OSError as e:
+        print(f'mdlinks: {e}', file=sys.stderr)
+        return 2
     for f, n, t, why in probs:
         print(f'{f}:{n}: {t}: {why}')
     print(f'{len(probs)} broken link(s)')

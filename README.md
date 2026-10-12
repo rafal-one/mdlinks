@@ -11,3 +11,5 @@ Tests: `python3 tests/test_mdlinks.py`
 
 ## Donate
 If it saved you time: PayPal 4433@vp.pl
+
+Donate: https://paypal.me/RafalBaranowski

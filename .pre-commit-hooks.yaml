@@ -1,0 +1,6 @@
+- id: mdlinks
+  name: mdlinks
+  description: Check relative links and anchors in Markdown files
+  entry: mdlinks
+  language: python
+  types: [markdown]

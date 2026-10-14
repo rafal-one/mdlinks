@@ -15,3 +15,13 @@ Tests: `python3 tests/test_mdlinks.py`
 If it saved you time: PayPal 4433@vp.pl
 
 Donate: https://paypal.me/RafalBaranowski
+
+## pre-commit
+
+```yaml
+repos:
+  - repo: https://github.com/rafal-one/mdlinks
+    rev: main
+    hooks:
+      - id: mdlinks
+```
